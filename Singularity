@@ -25,7 +25,10 @@ From: ubuntu:20.10
 	locales \
 	wget \
 	gdebi-core \
-	add-apt-key
+	add-apt-key \
+	libxml2-dev \
+	libssl-dev \
+	libcurl4-openssl-dev
 
    echo "en_GB.UTF-8 UTF-8" >> /etc/locale.gen
    locale-gen en_GB.utf8
