@@ -20,7 +20,7 @@ and setting up an `ssh` tunnel from your local machine (e.g. your laptop), for e
 ```bash
 ssh -N -f -L {local port}:localhost:{remote port} {your username}@humbug.well.ox.ac.uk
 ```
-You need to be connected to centre's VPN for this work.
+You need to be connected to the centre's VPN for this work.
 
 The following, does not work (yet):
 ```bash
@@ -32,5 +32,5 @@ RSTUDIO_PASSWORD="password" \
 
 For more info, check the definition file `Singularity`.
 
-I used code from [https://github.com/nickjer/singularity-rstudio](https://github.com/nickjer/singularity-rstudio). 
+I used code from [https://github.com/nickjer/singularity-rstudio](https://github.com/nickjer/singularity-rstudio) as a point of departure. Bits of this code still remain in this repository. 
 
